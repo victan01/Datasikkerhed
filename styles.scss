@@ -7,6 +7,7 @@
 }
 
 body{
+    background-color: #090A0B;
     font-family: "Roboto";
     src: url(../Datasikkerhed/Fonts/Roboto/Roboto-Regular.ttf);
 }
@@ -15,13 +16,17 @@ body{
 /*Navbar*/
 
 header{
-    background-color:#090A0B;
+    background-color:$navbar-color;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    height: 95px;
+    z-index: 100000;
 }
 
-.logo img{
+.logo .img{
     max-height: 40px;
-    width: 100px;
+    width: 50px;
     height: 30px;
 }
